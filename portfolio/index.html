@@ -23,21 +23,33 @@
 
         .clear{
             text-align:center;
-            font-size: 11px;
-        }
-
-        #scrollbutton{
-
-            margin-left: 49px;
-             position: absolute; 
-             margin-top: 292px;
+            font-size: 9px;
             
         }
 
+        .clear p {
+            color: white;
+            font-size: 13px;
+            margin-bottom: 17px;
+        }
+
+        #scroll{
+            
+            position: sticky;
+            
+            text-align: center;
+
+            top: 1000px;
+        }
+
+        
+
         button{
-            width:25%; 
-            padding: 0 110px;
+            
+            
              border-bottom: none;
+            
+
 
         }
          @media (min-width:1200px)
@@ -48,14 +60,10 @@
                  margin-top: 15px;
              }
 
-             #scrollbutton {
-                 margin-left: 311px;
-                 margin-top: 200px;
-                 
-             }
 
              button{
-                 width:40%;
+                 width:20%;
+                 text-align: center;
              }
 
 
@@ -63,6 +71,9 @@
 
          html {
              scroll-behavior: smooth;
+         }
+         .fas {
+             font-size: 25px;
          }
     </style>
     
@@ -136,12 +147,15 @@
                 </div>
             </div>
         </header>
+        
         <div class="wrapper">
+            
             <div id="post-572" class="post-572 page type-page status-publish hentry">
                 <div data-elementor-type="wp-page" data-elementor-id="572" class="elementor elementor-572"
                     data-elementor-settings="[]">
                     <div class="elementor-inner">
                         <div class="elementor-section-wrap">
+                            
                             <section
                                 class="elementor-section elementor-top-section elementor-element elementor-element-951c393 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                                 data-id="951c393" data-element_type="section">
@@ -165,22 +179,34 @@
                                                                             <h1 class="h-title"> <span
                                                                                     {{{ view.getRenderAttributeString( 'title' ) }}}>
                                                                                     Portfolio </span></h1>
-                                                                                    <div id="scrollbutton"><a href="#section12"><button><i class="fas fa-caret-down"></i></button></a></div>
+                                                                                    
+                                                                                  
                                                                             
                                                                         </div>
+                                                                        <div id="scroll"><a href="#section12"><button><i class="fas fa-caret-down"></i></button></a></div>
                                                                     </div>
+                                                                   
                                                                 </div> 
+                                                                
                                                             </div>
+                                                            
                                                         </div>
+                                                        
                                                     </div>
+                                                    
                                                 </div>
+                                                
                                             </div>
+                                           
                                         </div>
+                                        
                                     </div>
-                                    
+                                   
                                 </div>
                                 
+                                
                             </section>
+                            
                             <div id="section12">
                             <section
                                 class="elementor-section elementor-top-section elementor-element elementor-element-c17190c elementor-section-full_width elementor-section-height-default elementor-section-height-default"
@@ -724,7 +750,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="clear"><p style="color:white;">© 2022 All right reserved.  Terms &amp; Conditions Apply</p></div>
+                                
                             </section>
                            
 
@@ -749,6 +775,7 @@
             </div>
             
         </footer>
+        <div class="clear"><p>© 2022 All right reserved.  Terms &amp; Conditions Apply</p></div>
         <div class="lines">
             <div class="content">
                 <div class="line-col"></div>
