@@ -20,6 +20,17 @@
         type='text/css' media='all' />
     <script type='text/javascript' src='wp-includes/js/jquery/jquery4a5f.js' id='jquery-core-js'></script>
     <style>
+    .bx-wrapper {
+        -webkit-box-shadow: 0 0 5px #101010 !important;
+        box-shadow: 0 0 5px #101010 !important;
+        border: 5px solid #101010 !important;
+        background: #101010 !important;
+    }
+</style>
+
+    <style>
+        
+
 
         .clear{
             text-align:center;
@@ -105,6 +116,17 @@
 
 
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.clients-slider').bxSlider();
+    });
+</script>
+
     
 </head>
 <body
@@ -741,6 +763,7 @@
                                                                         </div>
                                                                     </h2>
                                                                     <div class="content-box">
+                                                                        <div class="clients-slider">
                                                                         <div class="clients-items1">
                                                                             <div class="clients-col1" >
                                                                                 <div class="clients-item"> <a href="https://www.hindustantimes.com/brand-post/an-inclusive-sports-culture-can-help-india-achieve-sdg-says-priyal-keni-101623934347441.html" target="blank">
@@ -753,11 +776,7 @@
                                                                                         <img src="img/client-02.jpg"
                                                                                             alt="Client 2" /> </a></div>
                                                                             </div>
-                                                                            <!--<div class="clients-col">-->
-                                                                            <!--    <div class="clients-item"> <a href="https://www.youtube.com/watch?v=6FN2U6h2Wnw&t=2737s"target="blank">-->
-                                                                            <!--            <img src="img/client-03.jpg"-->
-                                                                            <!--                alt="Client 3" /> </a></div>-->
-                                                                            <!--</div>-->
+                                                                            
                                                                          <div class="clients-col1" >
                                                                                 <div class="clients-item" > <a href="https://www.mid-day.com/lifestyle/infotainment/article/making-room-for-everyone-at-the-sports-table-23187183"target="blank">
                                                                                         <img src="img/download.jpeg"
@@ -778,6 +797,8 @@
                                                                             
                                                                             
                                                                             
+                                                                        </div>
+                                                                        
                                                                         </div>
                                                                     </div>
                                                                     <div class="clear"></div>
